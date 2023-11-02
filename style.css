@@ -1,0 +1,376 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'poppins' , sans-serif;
+}
+
+html body {
+height: 100%;
+width: 100%;
+background-color: rgb(72, 69, 69);
+}
+.header{
+height: 100vh;
+width: 100%;
+background-image: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(FrontImage.jpg);
+background-size: cover;
+background-position: center;
+
+}
+ .neticon{
+    height: 80px;
+    width: 170px;
+    padding-right:10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+
+}
+.btbox{
+    height: 70px;
+    width: 50%;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.b2{
+    padding: 5px 10px;
+    border-radius: 3px;
+    outline: none;
+    border: 0;
+    background: #ff0000;
+    font-size: 15px;
+    color: #fff;
+}
+.lang_button img{
+    height: 15px;
+    width: 15px;
+    
+}
+.lang_button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+select{
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+}
+#choose{
+   height: 20px;
+   width: 50px;
+
+}
+.headerFont{
+    height: 500px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.headerFont h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.headerFont p{
+    font-size: 20px;
+}
+.frontbox{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.frontbox input{
+    height: 60px;
+    width: 30%;
+    background-color: rgb(0,0,0,0);
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+}
+.frontbox button{
+    height: 60px;
+    width: 15%;
+    background-color: red;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.frontbox img{
+    height: 15px;
+    width: 20px;
+}
+.page2{
+    height: 600px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+
+}
+.page2 .main{
+    height: 500px;
+    width: 60%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    margin: 20px 20px;
+    padding-left: 40px;
+    color: white;
+}
+.main h1{
+    font-weight: 800;
+}
+.page2 .right{
+    height: 500px;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2 .right{
+    background-image: url(tv.png);
+}
+.page3{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.page3 .left{
+height: 500px;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+}
+.page3 .left img{
+    height: 380px;
+    width: 490px;
+}
+.page3 .right{
+    height: 500px;
+    width: 50%;
+    color: white; 
+    font-size: 30px;
+    display: flex;
+    align-items: flex-start;
+    justify-content:center;
+    flex-direction: column;
+    gap: 20px;
+}
+.page3 .right h1{
+    font-weight: 800;
+}
+.page4{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.left4 h1{
+    font-weight: 800;
+}
+.right5 h1{
+    font-weight: 800;
+}
+.page4 .left4{
+    height: 700px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;
+    padding-left: 50px;
+}
+.page4 .right4 video{
+    height: 400px;
+    width: 300px;
+}
+p{
+ font-size: 30px;   
+}
+.page4 .right4{
+height: 700px;
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+.page4 img{
+    height: 380px;
+    width: 490px;
+}
+.page5{
+    height: 700px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.page5 .left5{
+    height: 500px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    }
+    .page5 .left5 img{
+        height: 380px;
+        width: 490px;
+    }
+    .page5 .right5{
+        height: 500px;
+        width: 50%;
+        color: white; 
+        font-size: 30px;
+        display: flex;
+        align-items: flex-start;
+        justify-content:center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .page6 {
+        height: 800px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        background: #000;
+    }
+    .page6 h1{
+        color: wheat;
+        font-size: 50px;
+        font-weight: 800;
+    }
+    .page6 .heading{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 6px;  
+    }
+    .page6 .heading h2{
+        display: flex;
+        align-items: center;
+        height: 70px;
+        width: 1000px;
+        background-color: #414141;
+        padding-left: 20px;
+        color: #fff;
+    }
+    .page6 .heading h2 h1::after{
+        content: '+';
+        
+    }
+    .page6 h4{
+        height: 40px;
+        width: 100%;
+        color: white;
+    }
+    .page6 .last{
+        display: flex;
+        justify-content: center;
+    }
+    .page6 h4{
+        font-size: 20px;  
+    }
+    .endbox{
+        font-size: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px
+    }
+    .endbox button img{
+        height: 20px;
+        width: 20px;
+    }
+    .endbox input{
+        height: 65px;
+        width: 400px;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 8px;
+        background-color: #0F0F0F;
+    }
+    .endbox button{
+       
+        height: 65px;
+        width: 200px;
+        background-color: #db0001;
+        color: #fff;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    .ko{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .page7{
+        height: 500px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background: #000;
+        padding-right: 80px;
+        
+    }
+    .page7 .first{
+        height: 100px;
+        width: 100%;
+        color: #fff;
+        display: flex;
+        padding-left: 100px;
+        flex-direction: column;
+        justify-content: flex-end;
+        font-size: 15px;
+    }
+    .footer{
+        padding-top: 90px;
+        height: 350px;
+        width: 100%;
+        display: flex;
+        gap: 80px;
+        justify-content: center;
+        color: #fff;
+        font-size: 15px;
+    }
+    .langFooter select{
+        height: 25px;
+        width: 120px;
+        font-size: 15px;
+        color: wheat;
+        background-color: #0F0F0F;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+    a{
+        color: #fff;
+    }

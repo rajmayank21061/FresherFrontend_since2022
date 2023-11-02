@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    color: white;
+    background: #000;    
+}
+#switch{
+    color:black;
+    border:transparent;
+}

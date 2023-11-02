@@ -1,0 +1,70 @@
+/*  * is a universal selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'montserrat';
+    color: #f2f1f1;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#nav img{
+    height: 60px;
+}
+#nav{
+    height: 100px;
+    width:  100%;
+    padding: 0 150px;
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    justify-content:space-around;
+    text-transform: uppercase;
+    position: fixed; 
+    z-index: 99;
+}
+video{
+    height:100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+#main{
+    position: relative;
+    background-color: rgba(0,0,0,0.43);
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+h1{
+    font-size: 130px;
+    font-weight: 750;
+    position: relative;
+}
+#page1 h1::before{
+  content: "EAT.DRINK.PLAY";
+  position: absolute;
+  color: #000;
+  top: -6px;
+  left: -6px; 
+ -webkit-text-stroke: 2px greenyellow; 
+}
+h2{
+    font-size: 30px;
+    font-weight: 550;
+}
+p{
+    font-size: 15px;
+    font-weight: 500;
+    width: 40%;
+}
