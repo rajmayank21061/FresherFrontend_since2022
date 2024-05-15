@@ -1,0 +1,8 @@
+[
+    {"name":"Rohit","age":78,"post": "Gardener","isEmployed":true,"hobbies":["Cricket","Programming","BasketBall","Running","workout"]
+    },
+    { "name":"Adiya","age":34,"post": "Teacher","isEmployed":false,"hobbies":["Cricket","Programming","BasketBall","Running","workout"]
+    },
+    {"name":"Mukesh","age":12,"post": "Gardener","isEmployed":true,"hobbies":["Cricket","Programming","VollyBall","Running","Gym"]
+    }
+    ]
