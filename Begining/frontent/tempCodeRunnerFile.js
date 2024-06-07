@@ -4,4 +4,4 @@ async function tero() {
 //     await fobio(777).then( (res)=>{
 //         console.log(res)
 //     })
-// }
+ }

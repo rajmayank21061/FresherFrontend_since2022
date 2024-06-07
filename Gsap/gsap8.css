@@ -1,0 +1,145 @@
+* {
+margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Courier New', Courier, monospace;
+}
+
+html,
+body {
+height: 100%;
+width: 100%;
+}
+.page{
+    height: 17%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    
+}
+.page h1{
+    font-size: 40px;
+    padding: 20px;
+}
+.part2{
+ display: flex;
+ align-items: center;
+ gap: 29px;
+ font-size: 17px;
+}
+.part2 button{
+    font-size: 15px;
+    font-weight: 800;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+.page2{
+    height: 60%;
+    width: 100%;
+    padding: 40px;
+    display: flex;
+    color: rgb(0, 0, 0);
+}
+.left{
+    height: 100%;
+    width: 35%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family:"Space Grotesk" ,sans-serif;
+}
+.left button{
+
+width: 14vw;
+font-size: 13px;
+padding: 10px 2px;
+font-weight: 900;
+border-radius: 13px;
+border-color: none;
+background-color: black;
+color: white;
+}
+.left p{
+    font-size: 15px;
+}
+.right{
+    height: 100%;
+    width: 62%;
+}
+.right img{
+    position: absolute;
+    right: 20vh;
+    height: 50%
+}
+.page3{
+    height: 140px;
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page3 img{
+    height: 40%;
+    width: 200px;
+    padding-top: 0px;
+}
+#net{
+    height: 100px;
+}
+#dri{
+height: 160px;
+}
+#ama{
+    height: 120px;
+    }
+#zoom{
+    height: 130px;
+}
+.serv{
+    padding: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 29px;
+    width: 100%;
+}
+.serv h1{
+    background-color: #9AE975;
+    padding: 9px;
+    height: 10%;
+    width: 10%;
+    position: relative;
+    left: 45px;
+}
+.serv p{
+    padding-top: 8px;
+    font-size: 16px;
+    height: 50px;
+    width: 61%;
+    padding-left: 30px;
+}
+.container{
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 4vw;
+    flex-wrap: wrap;
+}
+.container .box{
+    flex-shrink: 0; 
+    height: 240px;
+    width: 550px;
+    border-radius: 30px;
+    background-color: rgb(178, 161, 14);
+    box-shadow: 0px 10px 0px black;
+}
